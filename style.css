@@ -1,0 +1,131 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: azure;
+  color: #333;
+}
+.top-bar{
+  position: fixed;
+  height: 40px;
+  background-color: lightblue;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid salmon; 
+  z-index: 1;
+}
+.container {
+  width: 960px;
+  margin: 80px auto;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.ig{
+  width: 119px;
+  height: 119px;
+  background-image: url(img/download.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  
+}
+header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 3px;
+}
+
+header a:hover {
+  background-color: blanchedalmond;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-image: url(img/hero.jpg);
+  background-position: 0 -120px;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid salmon;
+}
+
+main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+main h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+main .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+main .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+main p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+footer .copy {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.clear{
+  clear: both;
+}
+
+aside{
+  padding: 20px;
+  width: 300px;
+  float: right;
+}
+
+aside h3{
+  font-weight: bold;
+  color: #666;
+}
+
+aside img{
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding:0 10px 0 0;
+}
+
+aside p{
+  font: 12px/18px arial;
+}
